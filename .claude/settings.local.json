@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dir)",
+      "Bash(mkdir:*)",
+      "Bash(npm init:*)",
+      "Bash(npm install:*)",
+      "Bash(npm test)",
+      "Bash(npm run test:coverage:*)",
+      "Bash(npm run test:puppeteer:*)",
+      "Bash(npx jest:*)",
+      "Bash(dir tests)",
+      "Bash(dir backend)",
+      "Bash(dir:*)",
+      "Bash(node:*)",
+      "Bash(npm:*)",
+      "Bash(npx puppeteer browsers:*)",
+      "Bash(curl:*)",
+      "Bash(npx nuxi@latest init frontend)",
+      "Bash(npx nuxt:*)",
+      "Bash(git add:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
